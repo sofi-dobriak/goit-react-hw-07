@@ -44,7 +44,13 @@ button {
   }
 }
 
+.request {
+  margin-bottom: 12px;
+}
+
 @media (max-width: 425px) {
+
+  .request,
   .noContacts {
     text-align: center;
   }

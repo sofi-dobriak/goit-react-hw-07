@@ -25,8 +25,8 @@ function App() {
       <Title />
       <ContactForm />
       <SearchBox />
+      {isLoading && !error && <p className='request'>Request in progress...</p>}
       {hasContacts && <ContactList />}
-      {isLoading && !error && <p className='noContacts'>Request in progress...</p>}
       {!hasContacts && !isLoading && !error && <p className='noContacts'>No contacts</p>}
     </>
   );
