@@ -25,3 +25,5 @@ This application allows you to store and manage your contacts. It offers several
 - **Formik** for handling forms.
 - **Yup** for validation.
 - **Redux** and **Redux** Toolkit for managing global state.
+- [**mockapi.io**](https://mockapi.io/projects) as a backend
+- **Axios** for implementing server requests
